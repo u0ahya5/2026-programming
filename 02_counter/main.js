@@ -36,6 +36,8 @@ function plus(number = 1){
     count+=number;
     resultH1.innerHTML = count;
 }
+resultH1.innerHTML = count; // 보여주는 코드
+
 // const plus = (number = 1) => {
 //     count+=number;
 //     resultH1.innerHTML = count;
