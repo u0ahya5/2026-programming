@@ -33,3 +33,14 @@ npm create vite@latest .
 - `style={{}}`
 - HomeApp: page state가 home이면 `<ButtonPageApp />`, counterapp이면 `<CounterApp>`,
 todolist이면 `<TodoListApp />`
+- npm install react-router-dom
+-```javascript
+    <BrowserRouter>
+        <Routes>
+            <Route path="/" element={} />
+        </Routes>
+    </BrowserRouter>
+```
+- ```javascript
+    <Link to="/"></Link>
+```
