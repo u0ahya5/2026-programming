@@ -44,3 +44,4 @@ todolist이면 `<TodoListApp />`
 - ```javascript
     <Link to="/"></Link>
 ```
+- `useNavigate()`
